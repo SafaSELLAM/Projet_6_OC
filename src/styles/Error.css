@@ -1,0 +1,28 @@
+.error_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: space-between;
+  
+}
+.text_error_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 190px;
+}
+.error_text{
+    font-size: 288px;
+    color: #FF6060;
+font-weight: 700;
+margin: 0 0 5% 0;
+}
+.msg_error{
+    font-size: 36px;
+    color: #FF6060;
+font-weight: 500;
+}
+.link_error{
+    text-decoration: underline;
+    color: #FF6060;
+}
