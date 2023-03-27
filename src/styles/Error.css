@@ -20,7 +20,7 @@ margin: 0 0 5% 0;
 .msg_error{
     font-size: 36px;
     color: #FF6060;
-font-weight: 500;
+    font-weight: 500;
 }
 .link_error{
     text-decoration: underline;
