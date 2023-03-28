@@ -8,7 +8,7 @@ const Cards = () => {
     // crée une card pour chaque logement
     <div className="cards">
       {data.map((item) => (
-        <NavLink key={item.id} to={`Logement/${item.id}`}>
+        <NavLink key={item.id} to={`Logements/${item.id}`}>
           <Card item={item} />
         </NavLink>
       ))}
