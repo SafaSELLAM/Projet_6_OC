@@ -1,0 +1,16 @@
+.cards {
+    background-color: #F6F6F6;
+    padding: 1%;
+    margin: 4% 0%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+@media screen and (max-width :768px) {
+    .cards {
+        background-color: white;
+      grid-template-columns: 1fr;
+    }
+
+}
