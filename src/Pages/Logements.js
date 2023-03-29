@@ -1,9 +1,14 @@
 import React from "react";
+import { NavLink, useParams } from "react-router-dom";
 import Collapse from "../Components/Collapse";
+import data from "../datas/data";
 
-const Logements = (props) => {
-  const { item } = props;
-
+const Logements = () => {
+  const id = useParams();
+  const item = data.find((logement) => logement.id === id.id);
+  if (!item || !item.id) {
+    return <NavLink to="/error" />;
+  }
   return (
     <div className="logement_page">
       <div className="carrousel"></div>
