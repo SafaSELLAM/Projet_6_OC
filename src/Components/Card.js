@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/card.css";
+
 const Card = (props) => {
   // destructuration de props pour item
   const { item } = props;
