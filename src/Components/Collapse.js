@@ -36,5 +36,4 @@ const Collapse = ({ about }) => {
     </div>
   );
 };
-
 export default Collapse;

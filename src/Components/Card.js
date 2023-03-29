@@ -4,6 +4,7 @@ import "../styles/card.css";
 const Card = (props) => {
   // destructuration de props pour item
   const { item } = props;
+  // console.log(props);
   return (
     <div className="card">
       <img src={item.cover} alt={item.title} />
