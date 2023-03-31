@@ -1,38 +1,41 @@
 import React from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
+import Carousel from "../Components/Carousel";
 import Collapse from "../Components/Collapse";
 import data from "../datas/data";
-
+import "../styles/logement.css";
 const Logements = () => {
   const id = useParams();
   const item = data.find((logement) => logement.id === id.id);
   if (!item || !item.id) {
-    return <NavLink to="/error" />;
+    return <Navigate to="/error" replace={true} />;
   }
   return (
     <div className="logement_page">
-      <div className="carrousel"></div>
-      <div className="infos_logements">
-        <h2>{item.title}</h2>
-        <h3>{item.location}</h3>
-        <ul className="tags">
-          {item.tags.map((tag, index) => (
-            <li key={index}>{tag}</li>
-          ))}
-        </ul>
-      </div>
-      <div className="info_host">
-        <div className="host">
-          <h4>{item.host.name}</h4>
-          <img
-            src={item.host.picture}
-            alt={item.host.picture}
-            className="photo_hoste"
-          />
+      <Carousel pictures={item.pictures} />
+      <div className="block_info_logement between">
+        <div className="infos_logements">
+          <h2>{item.title}</h2>
+          <h3>{item.location}</h3>
+          <ul className="tags">
+            {item.tags.map((tag, index) => (
+              <li key={index}>{tag}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="info_host">
+          <div className="host row between">
+            <h4>{item.host.name}</h4>
+            <img
+              src={item.host.picture}
+              alt={item.host.picture}
+              className="photo_host"
+            />
+          </div>
           <div className="rating_stars"></div>
         </div>
       </div>
-      <div className="collapse_block">
+      <div className="collapse_block row between">
         <Collapse
           about={{ title: "Description", text: item.description, list: false }}
         />
