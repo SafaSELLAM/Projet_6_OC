@@ -1,0 +1,30 @@
+.list_infos {
+  list-style: none;
+}
+.collapse_logement {
+  width: 47%;
+}
+.collapse_about {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.collapse_title {
+  padding: 1em;
+  background: #ff6060;
+  border-radius: 10px;
+}
+.titre_infos {
+  color: white;
+  font-size: 16px;
+}
+.arrows {
+  width: 16px;
+  height: 16px;
+}
+.text_collapse {
+  color: #ff6060;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 1em;
+  line-height: 20px;
+}

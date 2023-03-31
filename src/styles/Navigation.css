@@ -1,16 +1,16 @@
-ul{
- list-style: none;
- display: flex;  
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
 }
-.navigation li{
-    margin: 10px;
-    font-size: 24px;
+.navigation li {
+  margin: 10px;
+  font-size: 24px;
 }
 a {
- 
-    text-decoration: none;
-    color: #FF6060;
+  text-decoration: none;
+  color: #ff6060;
 }
-.activeLink{
-    text-decoration: underline;
+.activeLink {
+  text-decoration: underline;
 }
