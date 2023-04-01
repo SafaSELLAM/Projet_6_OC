@@ -2,6 +2,7 @@ import React from "react";
 import { Navigate, useParams } from "react-router-dom";
 import Carousel from "../Components/Carousel";
 import Collapse from "../Components/Collapse";
+import Ratings from "../Components/Ratings";
 import data from "../datas/data";
 import "../styles/logement.css";
 const Logements = () => {
@@ -32,7 +33,8 @@ const Logements = () => {
               className="photo_host"
             />
           </div>
-          <div className="rating_stars"></div>
+          {/* convertir la valeur de la propriété rating de l'objet en un nombre entier. */}
+          <Ratings scaleValue={parseInt(item.rating)} />
         </div>
       </div>
       <div className="collapse_block row between">
