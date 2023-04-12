@@ -4,10 +4,8 @@ import logo from "../assets/kasa_logo.svg";
 import "../styles/header.css";
 const Header = () => {
   return (
-    <header className="Header">
-      <div className="logo">
-        <img src={logo} alt="Logo Kasa" />
-      </div>
+    <header className="Header between center">
+      <img className="logo_kasa" src={logo} alt="Logo Kasa" />
       <Navigation />
     </header>
   );

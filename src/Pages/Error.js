@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 import "../styles/Error.css";
 const Error = () => {
   return (
-    <div className="error_container">
-      <div className="text_error_container">
+    <div className="error_container between column">
+      <div className="text_error_container center column">
         <p className="error_text">404</p>
         <p className="msg_error">
           Oups! La page que vous demandez n'existe pas.
