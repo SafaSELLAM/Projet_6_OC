@@ -6,7 +6,7 @@ import Home from "../Pages/Home";
 import Logements from "../Pages/Logements";
 const Router = () => {
   return (
-    <div>
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -14,7 +14,7 @@ const Router = () => {
         <Route path="/Error" element={<Error />} />
         <Route path="*" element={<Error />} />
       </Routes>
-    </div>
+    </>
   );
 };
 
