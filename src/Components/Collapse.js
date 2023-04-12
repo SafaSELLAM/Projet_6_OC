@@ -8,6 +8,7 @@ const Collapse = ({ about }) => {
   const toggle = () => {
     setOpen(!open);
   };
+  //réutilisation du composant pour home et about
   const url = window.location.href;
   const className = url.includes("about")
     ? "collapse_about column"
@@ -23,6 +24,7 @@ const Collapse = ({ about }) => {
       </div>
       {open && (
         <div className="text_collapse">
+          {/* séparation entre description et equipements en forme de liste */}
           {about.list === true ? (
             <ul className="list_infos column">
               {about.text.map((item) => (
