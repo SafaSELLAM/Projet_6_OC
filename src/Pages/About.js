@@ -10,6 +10,7 @@ const About = () => {
         <Banner image={AboutBanner} alt="image bannière" />
         {datas.map((abouts) => (
           <Collapse
+            collapse_about="collapse_about"
             key={abouts.id}
             about={{ title: abouts.title, text: abouts.text, list: false }}
           />

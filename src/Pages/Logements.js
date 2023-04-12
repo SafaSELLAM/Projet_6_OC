@@ -38,8 +38,9 @@ const Logements = () => {
             <Ratings scaleValue={parseInt(item.rating)} />
           </div>
         </div>
-        <div className="collapse_block row between">
+        <div className="collapse_block row ">
           <Collapse
+            collapse_logement="collapse_logement"
             about={{
               title: "Description",
               text: item.description,
@@ -47,6 +48,7 @@ const Logements = () => {
             }}
           />
           <Collapse
+            collapse_logement="collapse_logement"
             about={{ title: "Equipements", text: item.equipments, list: true }}
           />
         </div>
