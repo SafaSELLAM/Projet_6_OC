@@ -1,11 +1,7 @@
-.footer{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 100px;
-  
+.footer {
+  background-color: black;
+  height: 100px;
 }
-.text_footer{
-    color: white;
+.text_footer {
+  color: white;
 }
