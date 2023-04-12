@@ -24,7 +24,7 @@ const Carousel = ({ pictures }) => {
             <img
               src={arrowLeft}
               alt="image précédente"
-              className="prev"
+              className="slide"
               onClick={prev}
             />
             <span className="index_img">{`${currentIndex + 1}/${
@@ -33,7 +33,7 @@ const Carousel = ({ pictures }) => {
             <img
               src={arrowRight}
               alt="image suivante"
-              className="next"
+              className="slide"
               onClick={next}
             />
           </div>

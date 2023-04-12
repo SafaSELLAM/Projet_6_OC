@@ -1,3 +1,7 @@
+.error_container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .text_error_container {
   margin-bottom: 190px;
 }
@@ -13,6 +17,16 @@
   font-weight: 500;
 }
 .link_error {
+  font-size: 18px;
   text-decoration: underline;
   color: #ff6060;
+}
+@media screen and (max-width: 768px) {
+  .error_text {
+    font-size: 150px;
+  }
+  .msg_error {
+    font-size: 18px;
+    width: 57%;
+  }
 }

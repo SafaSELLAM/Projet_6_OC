@@ -6,7 +6,7 @@ const Ratings = ({ scaleValue }) => {
   const range = [1, 2, 3, 4, 5];
 
   return (
-    <div>
+    <div className="ratings">
       {range.map((rangeStar) =>
         scaleValue >= rangeStar ? (
           <span key={rangeStar.toString()}>

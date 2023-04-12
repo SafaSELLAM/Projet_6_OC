@@ -1,5 +1,13 @@
+.rating_star {
+  width: 24px;
+  height: 24px;
+}
 @media screen and (max-width: 768px) {
   .rating_star {
     height: 18px;
+    width: 18px;
+  }
+  .ratings {
+    width: 41%;
   }
 }
