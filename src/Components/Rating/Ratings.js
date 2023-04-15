@@ -1,7 +1,7 @@
 import React from "react";
-import star from "../assets/star_full.png";
-import starNull from "../assets/star_empty.png";
-import "../styles/rating.css";
+import star from "../../assets/star_full.png";
+import starNull from "../../assets/star_empty.png";
+import "./rating.css";
 const Ratings = ({ scaleValue }) => {
   const range = [1, 2, 3, 4, 5];
 

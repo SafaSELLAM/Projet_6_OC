@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/Error.css";
+import "./Error.css";
 const Error = () => {
   return (
     <div className="error_container between column">

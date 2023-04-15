@@ -1,10 +1,10 @@
 import React from "react";
 import { Navigate, useParams } from "react-router-dom";
-import Carousel from "../Components/Carousel";
-import Collapse from "../Components/Collapse";
-import Ratings from "../Components/Ratings";
-import data from "../datas/data";
-import "../styles/logement.css";
+import Carousel from "../../Components/Carousel/Carousel";
+import Collapse from "../../Components/Collapse/Collapse";
+import Ratings from "../../Components/Rating/Ratings";
+import data from "../../datas/data";
+import "./logement.css";
 const Logements = () => {
   const id = useParams();
   const item = data.find((logement) => logement.id === id.id);

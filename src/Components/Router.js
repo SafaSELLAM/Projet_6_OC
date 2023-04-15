@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import About from "../Pages/About";
-import Error from "../Pages/Error";
+import Error from "../Pages/Error/Error";
 import Home from "../Pages/Home";
-import Logements from "../Pages/Logements";
+import Logements from "../Pages/Logements/Logements";
 const Router = () => {
   return (
     <>

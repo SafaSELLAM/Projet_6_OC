@@ -1,8 +1,8 @@
-import Card from "./Card.js";
-import data from "../datas/data";
+import Card from "../Card/Card.js";
+import data from "../../datas/data.js";
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/cards.css";
+import "./cards.css";
 const Cards = () => {
   return (
     // crée une card pour chaque logement

@@ -1,6 +1,6 @@
 import React from "react";
-import logo_footer from "../assets/logo-footer.svg";
-import "../styles/Footer.css";
+import logo_footer from "../../assets/logo-footer.svg";
+import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer column around">

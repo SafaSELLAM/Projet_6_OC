@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import arrowLeft from "../assets/arrow-left.png";
-import arrowRight from "../assets/arrow-right.png";
-import "../styles/carousel.css";
+import arrowLeft from "../../assets/arrow-left.png";
+import arrowRight from "../../assets/arrow-right.png";
+import "./carousel.css";
 
 const Carousel = ({ pictures }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
