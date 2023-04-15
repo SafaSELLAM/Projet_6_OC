@@ -1,3 +1,6 @@
+.ratings {
+  margin-top: 6%;
+}
 .rating_star {
   width: 24px;
   height: 24px;
@@ -8,6 +11,7 @@
     width: 18px;
   }
   .ratings {
-    width: 41%;
+    width: 30%;
+    margin-top: 0;
   }
 }

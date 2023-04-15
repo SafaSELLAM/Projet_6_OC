@@ -1,15 +1,14 @@
 .error_container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 10% auto;
 }
 .text_error_container {
-  margin-bottom: 190px;
+  margin-bottom: 20%;
 }
 .error_text {
   font-size: 288px;
   color: #ff6060;
   font-weight: 700;
-  margin: 0 0 5% 0;
+  margin: 0 0 4% 0;
 }
 .msg_error {
   font-size: 36px;

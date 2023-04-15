@@ -20,7 +20,7 @@ const Carousel = ({ pictures }) => {
           className="img_carousel"
         />
         {pictures.length > 1 && (
-          <div className="indexation_img">
+          <div className="indexation_img between">
             <img
               src={arrowLeft}
               alt="image précédente"

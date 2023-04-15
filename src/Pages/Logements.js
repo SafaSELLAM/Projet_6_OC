@@ -15,7 +15,7 @@ const Logements = () => {
     <div className="center">
       <div className="logement_page">
         <Carousel pictures={item.pictures} />
-        <div className="block_info_logement between">
+        <div className="block_info_logement">
           <div className="infos_logements">
             <h2>{item.title}</h2>
             <h3>{item.location}</h3>

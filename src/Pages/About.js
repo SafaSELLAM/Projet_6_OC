@@ -8,6 +8,8 @@ const About = () => {
     <div className="about">
       <div className="banner_about">
         <Banner image={AboutBanner} alt="image bannière" />
+      </div>
+      <div className="collapse_about_container column center">
         {datas.map((abouts) => (
           <Collapse
             collapse_about="collapse_about"
