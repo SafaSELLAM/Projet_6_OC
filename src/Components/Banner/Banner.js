@@ -4,7 +4,7 @@ const Banner = ({ image, text }) => {
   return (
     <div className="banner_container">
       <img className="banner" src={image} alt="banniere" />
-      <span className="text_banner">{text}</span>
+      <span className="text_banner colorWhite">{text}</span>
     </div>
   );
 };

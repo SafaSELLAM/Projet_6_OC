@@ -17,7 +17,6 @@
 }
 
 .text_banner {
-  color: #ffffff;
   position: absolute;
   top: 42%;
   left: 25%;
@@ -41,9 +40,8 @@
     margin-top: 4%;
   }
   .text_banner {
-    width: 90%;
     font-size: 20px;
-    left: 18%;
+    left: 20%;
     top: 40%;
   }
 }

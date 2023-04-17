@@ -17,17 +17,19 @@ const Logements = () => {
         <Carousel pictures={item.pictures} />
         <div className="block_info_logement">
           <div className="infos_logements">
-            <h2>{item.title}</h2>
-            <h3>{item.location}</h3>
+            <h2 className="colorPrimaire">{item.title}</h2>
+            <h3 className="colorPrimaire">{item.location}</h3>
             <ul className="tags row">
               {item.tags.map((tag, index) => (
-                <li key={index}>{tag}</li>
+                <li className="backPrimaire colorWhite" key={index}>
+                  {tag}
+                </li>
               ))}
             </ul>
           </div>
           <div className="info_host">
             <div className="host row between">
-              <h4>{item.host.name}</h4>
+              <h4 className="colorPrimaire">{item.host.name}</h4>
               <img
                 src={item.host.picture}
                 alt={item.host.picture}

@@ -10,12 +10,15 @@ const Collapse = ({ about, collapse_about, collapse_logement }) => {
   };
   return (
     <div className={`${collapse_about} ${collapse_logement}`}>
-      <div className="collapse_title between center" onClick={toggle}>
-        <h2 className="titre_infos">{about.title}</h2>
+      <div
+        className="collapse_title between center backPrimaire"
+        onClick={toggle}
+      >
+        <h2 className="titre_infos colorWhite">{about.title}</h2>
         <img src={open ? ArrowUp : ArrowDown} alt="flèche" className="arrows" />
       </div>
       {open && (
-        <div className="text_collapse">
+        <div className="text_collapse colorPrimaire">
           {/* séparation entre description et equipements en forme de liste */}
           {about.list === true ? (
             <ul className="list_infos column">

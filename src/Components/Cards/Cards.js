@@ -6,7 +6,7 @@ import "./cards.css";
 const Cards = () => {
   return (
     // crée une card pour chaque logement
-    <div className="cards">
+    <div className="cards backSecondaire">
       {data.map((item) => (
         <NavLink key={item.id} to={`Logements/${item.id}`}>
           <Card item={item} />

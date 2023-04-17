@@ -5,7 +5,7 @@
 .collapse_block {
   justify-content: space-between;
   width: 100%;
-  margin-top: 3%;
+  margin-top: 2%;
   position: static;
 }
 .block_info_logement {
@@ -14,26 +14,24 @@
   margin-top: 1%;
 }
 .infos_logements h2 {
-  color: #ff6060;
   font-weight: 500;
   font-size: 30px;
   margin-bottom: 1%;
 }
 .infos_logements h3 {
-  color: #ff6060;
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 2%;
 }
 .host h4 {
-  color: #ff6060;
   font-weight: 500;
   font-size: 18px;
   width: 94px;
 }
+.tags {
+  margin-top: 7%;
+}
 .tags li {
-  background-color: #ff6060;
-  color: white;
   list-style: none;
   border-radius: 10px;
   padding: 2px 15px;

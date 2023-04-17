@@ -6,19 +6,16 @@
 }
 .error_text {
   font-size: 288px;
-  color: #ff6060;
   font-weight: 700;
   margin: 0 0 4% 0;
 }
 .msg_error {
   font-size: 36px;
-  color: #ff6060;
   font-weight: 500;
 }
 .link_error {
   font-size: 18px;
   text-decoration: underline;
-  color: #ff6060;
 }
 @media screen and (max-width: 768px) {
   .error_text {

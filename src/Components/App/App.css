@@ -45,20 +45,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.colorGris {
-  color: #f2f2f2;
+.colorPrimaire {
+  color: #ff6060;
 }
-.backGris {
-  background-color: #f2f2f2;
-}
-.colorBlue {
-  color: #0065fc;
-}
-.backBlue {
-  background-color: #0065fc;
+.colorWhite {
+  color: #ffffff;
 }
 .colorBlack {
   color: black;
+}
+.backPrimaire {
+  background-color: #ff6060;
+}
+.backSecondaire {
+  background-color: #f6f6f6;
 }
 .noDecoration {
   text-decoration: none;
