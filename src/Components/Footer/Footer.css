@@ -1,7 +1,17 @@
+footer {
+  margin-top: auto;
+}
 .footer {
   background-color: black;
-  height: 100px;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 .text_footer {
   color: white;
+  padding-top: 3%;
+}
+@media screen and (max-width: 720px) {
+  .footer {
+    padding-bottom: 5%;
+  }
 }

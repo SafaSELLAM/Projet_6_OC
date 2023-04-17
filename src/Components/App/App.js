@@ -5,7 +5,7 @@ import Router from "../Router";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App column">
       <Header />
       <Router />
       <Footer />
